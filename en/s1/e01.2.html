@@ -1,38 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-version="lambda=40; template=958">
+
 <head>
-    <meta charset="utf-8">
-    <title>Mediaelement example</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="icon" type="image/x-icon" href="https://assets.animatron.com/landings/static/favicon.ico" />
+  <title>1 chameleon</title>
+  <link rel="canonical" href="5e8c837346e0fb002b801547" />
 
-    <script src="{{ paths.theme }}javascripts/jquery-1.9.1.min.js"></script>
-    <script src="http://mediaelementjs.com/js/mejs-2.11.2/mediaelement-and-player.min.js"></script>
-    <link rel="stylesheet" href="http://mediaelementjs.com/js/mejs-2.11.2/mediaelementplayer.min.css" />
-    <link rel="stylesheet" href="http://mediaelementjs.com/js/mejs-2.11.2/mejs-skins.css" />
+  <meta name="robots" content="all" />
+  <meta charset="utf-8" />
 
+  <meta property="og:url" content="5e8c837346e0fb002b801547" />
+
+  <meta name="twitter:image" content="https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002c03faaa.jpg" />
+  <meta property="og:image" content="https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002c03faaa.jpg" />
+
+  <meta property="og:title" content="1 chameleon" />
+  <meta name="twitter:title" content="1 chameleon" />
+
+  <meta name="description" content="1 chameleon - hosted by Wave.video" />
+  <meta property="og:description" content="1 chameleon - hosted by Wave.video" />
+  <meta name="twitter:description" content="1 chameleon - hosted by Wave.video" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta property="og:video" content="https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c846e0fb002c03faa6.mp4" />
+  <meta property="og:video:secure_url" content="1920" />
+  <meta property="og:video:type" content="video/mp4" />
+  <meta property="og:video:width" content="1920" />
+  <meta property="og:video:height" content="1080" />
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100;
+      font-display: block;
+      src: url('https://assets.animatron.com/fonts/inter/Inter-Regular.woff2?v=3.11') format('woff2'),
+        url('https://assets.animatron.com/fonts/inter/Inter-Regular.woff2?v=3.11') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: block;
+      src: url('https://assets.animatron.com/fonts/inter/Inter-Bold.woff2?v=3.11') format('woff2'),
+        url('https://assets.animatron.com/fonts/inter/Inter-Bold.woff2?v=3.11') format('woff');
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      min-width: 320px;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      font-family: 'Inter', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .player-wrapper {
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .preview {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+    }
+
+    .preview.hidden {
+      display: none;
+    }
+
+    .preview img {
+      width: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context":"http://schema.org/",
+      "@type":"VideoObject",
+      "duration":"
+          PT21M44S
+",
+      "name":"1 chameleon",
+      "thumbnailUrl":"https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002c03faaa.jpg",
+      "embedUrl":"5e8c837346e0fb002b801547",
+      "uploadDate":"
+          2020-04-07 13:44:40
+      ",
+      "description":"
+          1 chameleon - hosted by Wave.video
+      "
+    }
+  </script>
+  
+        <script type="text/javascript">
+            (function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+                    0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+                    for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+            mixpanel.init("1da7a894c2f0d0952209dbb88ef1ef59");
+        </script>
+	
+  
+        <script type="text/javascript">
+            var guest = document.cookie.indexOf('_animatronauth') < 0;
+            var embedded = window !== window.parent;
+            var ref = document.referrer;
+            mixpanel.track('web.video.watch', {'videoId': "5e8c837346e0fb002b801547", 'userId': "1905865e8eed44adc0c0a153", 'guest': guest, 'embedded': embedded, 'topUrl': ref});
+        </script>
+  
 </head>
 
-<body id="home">
+<body>
+  <div class="container">
+    <div class="player-wrapper">
+      <div class="preview">
+        <img src="https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002c03faaa.jpg" alt="1 chameleon">
+      </div>
 
-    <h1>Mediaelement example.</h1>
+      <div class="wave_embed" data-id="5e8c837346e0fb002b801547" data-manifest="{&quot;id&quot;:&quot;5e8c837346e0fb002b801547&quot;,&quot;userId&quot;:&quot;1905865e8eed44adc0c0a153&quot;,&quot;projectId&quot;:null,&quot;password&quot;:{&quot;hash&quot;:null,&quot;description&quot;:null},&quot;configs&quot;:{&quot;bigPlayButton&quot;:true,&quot;autoplay&quot;:true,&quot;end&quot;:&quot;showLastFrame&quot;,&quot;playerColor&quot;:&quot;#20ABD2&quot;,&quot;playbar&quot;:{&quot;speed&quot;:true,&quot;quality&quot;:true,&quot;volume&quot;:true,&quot;fullScreen&quot;:true,&quot;smallPlayButton&quot;:true,&quot;playbarButton&quot;:true,&quot;currentTime&quot;:true,&quot;logo&quot;:true}},&quot;meta&quot;:{&quot;description&quot;:&quot;1 chameleon - hosted by Wave.video&quot;,&quot;duration&quot;:1304.2,&quot;uploadDate&quot;:&quot;2020-04-07 13:44:40&quot;,&quot;name&quot;:&quot;1 chameleon&quot;},&quot;isEmbedded&quot;:true,&quot;main&quot;:[{&quot;width&quot;:1920,&quot;height&quot;:1080,&quot;isOriginal&quot;:null,&quot;rotate&quot;:0,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c846e0fb002c03faa6.mp4&quot;,&quot;type&quot;:&quot;video&quot;},{&quot;width&quot;:1280,&quot;height&quot;:720,&quot;isOriginal&quot;:null,&quot;rotate&quot;:0,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c9c9e77c002b6a86cf.mp4&quot;,&quot;type&quot;:&quot;video&quot;},{&quot;width&quot;:640,&quot;height&quot;:360,&quot;isOriginal&quot;:null,&quot;rotate&quot;:0,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c9c9e77c002a21e503.mp4&quot;,&quot;type&quot;:&quot;video&quot;},{&quot;width&quot;:null,&quot;height&quot;:null,&quot;isOriginal&quot;:null,&quot;rotate&quot;:null,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c9c9e77c002a21e506.vtt&quot;,&quot;type&quot;:&quot;thumbnail&quot;},{&quot;width&quot;:640,&quot;height&quot;:360,&quot;isOriginal&quot;:null,&quot;rotate&quot;:null,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002c03faad.jpg&quot;,&quot;type&quot;:&quot;image&quot;},{&quot;width&quot;:1920,&quot;height&quot;:1080,&quot;isOriginal&quot;:null,&quot;rotate&quot;:null,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002c03faaa.jpg&quot;,&quot;type&quot;:&quot;image&quot;},{&quot;width&quot;:1280,&quot;height&quot;:720,&quot;isOriginal&quot;:null,&quot;rotate&quot;:null,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c946e0fb002b8015ac.jpg&quot;,&quot;type&quot;:&quot;image&quot;},{&quot;width&quot;:1920,&quot;height&quot;:1080,&quot;isOriginal&quot;:true,&quot;rotate&quot;:0,&quot;path&quot;:&quot;https://wave.video/embed/5e8c837346e0fb002b801547/5e8c837346e0fb002b80154a.m4v&quot;,&quot;type&quot;:&quot;video&quot;}],&quot;desktop&quot;:null,&quot;mobile&quot;:null}" />
+    </div>
+  </div>
+  <script type="text/javascript" src='https://wave.video/embed/player.js?958'></script>
 
-{# print out the contents of Bolt's video object. Not needed, but helps to see what's in it. #}
-{{ print(record.video) }}
-
-{# Insert the video HTML-tag. #}
-{% if record.video.url != "" %}
-    <video width="640" height="360" id="player1" preload="none">
-        <source type="video.mp4" src="https://wave.video/embed/5e8c837346e0fb002b801547/5e8c83c846e0fb002c03faa6.mp4" />
-    </video>
-{% else %}
-    <p>No video entered in backend.</p>
-{% endif %}
-
-{# Initialize mediaelementplayer #}
-<script>
-jQuery(document).ready(function($) {
-    $('#player1').mediaelementplayer();
-});
-</script>
+  <script>
+    window.onPlayerInit = () => {
+      document.querySelector('.preview').classList.add('hidden');
+    }
+  </script>
 
 </body>
+
 </html>
